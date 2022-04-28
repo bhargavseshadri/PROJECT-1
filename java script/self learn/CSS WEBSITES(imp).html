@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css websites</title>
+        <style>
+            .logo{
+                font: size 2em; ;
+            }
+            p::first-letter{
+                font-size: 3em;
+                color: darkgoldenrod;
+
+
+            }
+            .container{
+                width: 1080px;
+                margin: auto;
+                background-color: antiquewhite;
+                padding: 10px;
+
+
+            }
+            nav{
+                background-color: aqua;
+                width: 100%;
+
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+
+                width: 150px;
+            }
+            nav a{
+                display:block;
+                text-decoration: none;
+                color: black;
+                text-align: center;
+                padding: 10px 0 ;
+
+            }
+            nav a:hover{
+                background-color: brown;
+            }
+         .header-container header{
+             background-color: black ;
+             color: white;
+             text-transform: uppercase;
+             padding: 10px;
+
+         }
+         #content{
+             background-color: white;
+             color: black;
+             width: 56%;
+             float: left;
+             min-height: 500px;
+             padding: 5px 2%;
+
+         }
+
+         #sidemenu{
+            width: 36%;
+            float: right;
+            background-color: aquamarine;
+            padding: 02%;
+            text-align: center;
+            
+
+
+         }
+         #sidemenu ul{
+             margin: 0%;
+             padding: 0%;
+             background-color:cadetblue;
+             text-align: center;
+             
+         }
+         #sidemenu li{
+             list-style-type: none;
+             display: block;
+             width: 100%;
+             padding: 10px 0;
+             background-color: white ;
+             
+
+
+         }
+         #sidemenu{
+             text-decoration: none;
+             color: blueviolet;
+         }
+         #sidemenu a:hover{
+             background-color: white;
+             color: cornflowerblue;
+
+         }
+
+         .footer-container{
+             clear: both;
+             background-color: azure;
+             padding: 3px 5px 2px;
+             
+             
+         }
+         .clearfix{
+             clear: both;
+         }
+         .rcorner{
+             border-radius: 35px;
+             background-color: white;
+             padding: 15px;
+         }
+
+        
+           
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-container">
+                <header>
+                    <div class="logo">company name</div>
+                    
+                </header>
+                <nav>
+                    <ul>
+                       <li><a href="#">HOME</a></li> 
+                       <li><a href="#">ABOUT</a></li> 
+                       <li><a href="#">CONTACT</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-container">
+                <div id="content">
+                    <header>main page content</header>
+                    <p>some content blah blah.Like I said, only those who can feel it can like Tamasha. It's more than just a film. It's an amalgamation of beautiful, sad, angry, dull, lovely, frustrated and funny moments put together which literally make it a roller coaster ride, with its own highs and lows</p>
+                    <p>Like I said, only those who can feel it can like Tamasha. It's more than just a film. It's an amalgamation of beautiful, sad, angry, dull, lovely, frustrated and funny moments put together which literally make it a roller coaster ride, with its own highs and lows</p>
+                    <p>Like I said, only those who can feel it can like Tamasha. It's more than just a film. It's an amalgamation of beautiful, sad, angry, dull, lovely, frustrated and funny moments put together which literally make it a roller coaster ride, with its own highs and lows</p>
+                    <footer>share</footer>
+
+                </div>
+                <aside id="sidemenu">
+                    <h3>news feed</h3>
+                    <div class="rcorner"> 
+                    <ul>
+                        <li><a href="#">link 1</a></li>
+                        <li><a href="#">link 2</a></li>
+                        <li><a href="#">link 3</a></li>
+                        <li><a href="#">link 4</a></li>
+                    </ul>
+                </div>
+                </aside>
+                <div class="clearfix"></div>
+
+            </div>
+            <div class="footer-container clearfix">
+                <footer> 
+                     <div>(c)copyright 2017 bhargav seshadri</div>
+                     <div>more info to get hold on us</div>
+
+                </footer>
+            </div>
+            
+        </div>
+       
+            
+        
+    </body>
+</html>
